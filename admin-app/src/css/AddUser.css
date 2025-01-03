@@ -1,0 +1,54 @@
+/* src/components/AddUser.css */
+
+.user-form-container {
+    max-width: 400px; /* Giới hạn chiều rộng tối đa của form */
+    margin: 20px auto; /* Căn giữa form */
+    padding: 20px; /* Thêm khoảng cách bên trong */
+    border: 1px solid #ccc; /* Đường viền xung quanh */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    background-color: #fff; /* Màu nền */
+}
+
+h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+    color: #333; /* Màu chữ */
+}
+
+form {
+    display: flex; /* Sử dụng Flexbox để tạo kiểu cho các phần tử trong form */
+    flex-direction: column; /* Sắp xếp theo cột */
+}
+
+div {
+    margin-bottom: 15px; /* Khoảng cách giữa các trường */
+}
+
+label {
+    margin-bottom: 5px; /* Khoảng cách giữa label và input */
+    font-weight: bold; /* Chữ in đậm */
+    color: #555; /* Màu chữ */
+}
+
+input, select {
+    padding: 10px; /* Khoảng cách bên trong cho các trường nhập */
+    border: 1px solid #ccc; /* Đường viền cho các trường nhập */
+    border-radius: 4px; /* Bo góc cho các trường nhập */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+button {
+    padding: 10px; /* Khoảng cách bên trong cho nút */
+    border: none; /* Không có đường viền */
+    border-radius: 4px; /* Bo góc cho nút */
+    background-color: #28a745; /* Màu nền nút */
+    color: white; /* Màu chữ nút */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Hiệu ứng con trỏ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+button:hover {
+    background-color: #218838; /* Thay đổi màu khi hover */
+}

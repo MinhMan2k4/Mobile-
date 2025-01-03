@@ -1,0 +1,83 @@
+/* src/components/UserManager.css */
+
+.user-manager-container {
+    padding: 20px;
+    background-color: #f4f6f8;
+}
+
+.user-manager-container h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.add-user-button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.add-user-button:hover {
+    background-color: #27ae60;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-table thead tr {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.user-table th, .user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.user-table tbody tr:hover {
+    background-color: #ecf0f1;
+}
+
+.user-table button {
+    padding: 8px 12px;
+    margin-right: 8px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-table button:first-child {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.user-table button:first-child:hover {
+    background-color: #2980b9;
+}
+
+.user-table button:last-child {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.user-table button:last-child:hover {
+    background-color: #c0392b;
+}

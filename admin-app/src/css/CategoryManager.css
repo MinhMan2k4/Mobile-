@@ -1,0 +1,89 @@
+.category-manager-container {
+    padding: 20px;
+    background-color: #f4f6f8;
+}
+
+.category-manager-container h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-table thead tr {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.category-table th, .category-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-table th {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.category-table tbody tr:hover {
+    background-color: #ecf0f1;
+}
+
+.category-table button {
+    padding: 8px 12px;
+    margin-right: 8px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-table button:first-child {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.category-table button:first-child:hover {
+    background-color: #2980b9;
+}
+
+.category-table button:last-child {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.category-table button:last-child:hover {
+    background-color: #c0392b;
+}
+
+.category-table img {
+    border-radius: 5px; /* Tạo hình tròn cho ảnh */
+    width: 50px; /* Kích thước ảnh */
+    height: 50px; /* Kích thước ảnh */
+}
+/* src/css/CategoryManager.css */
+
+.add-category-button {
+    padding: 10px 15px; /* Đệm trên và dưới, bên trái và bên phải */
+    background-color: #3498db; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo góc */
+    cursor: pointer; /* Con trỏ chuột khi di chuột qua */
+    font-size: 1rem; /* Kích thước chữ */
+    margin-bottom: 20px; /* Khoảng cách phía dưới nút */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.add-category-button:hover {
+    background-color: #2980b9; /* Màu nền khi di chuột qua */
+}
